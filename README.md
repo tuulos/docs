@@ -1,4 +1,4 @@
-# Beautiful Literate Technical Documentation
+# Docusaurus + Notebooks
 
 This project allows you to create rich, testable code documentation with notebooks.  
 
