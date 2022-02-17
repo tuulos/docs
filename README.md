@@ -2,7 +2,7 @@
 
 This project allows you to create rich, testable code documentation with notebooks.  
 
-This project combines [nbdoc](https://github.com/outerbounds/nbdoc) and [Docusarus](https://docusaurus.io/) to give you a powerful documentation system.
+This project combines [nbdoc](https://github.com/outerbounds/nbdoc) and [Docusarus](https://docusaurus.io/) to create a documentation system.
 
 ## Background: Literate Documentation
 
