@@ -1,0 +1,5 @@
+nbdoc>=0.0.13
+jupyter>=1.0.0
+jupyterlab>=3.2.1
+metaflow>=2.5.0
+watchdog[watchmedo]
