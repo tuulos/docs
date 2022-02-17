@@ -65,3 +65,44 @@ To test the notebooks, run `make test` from the root of this repo.  This will ex
 ### Skipping tests in cells
 
 If you want to skip certain cells from running in tests because they take a really long time, you can place the comment `#notest` at the top of the cell.
+
+## Setup Hotkeys For Jupyter
+
+People complain about "state" in Jupyter.  This can be easily avoided by frequently restarting the kernel and running all cells from the top.  Thankfully, you can set a hotkey that allows you to do this effortlessly.  In Jupyter Lab, go to `Settings` then `Advanced Settings Editor`.  Copy and paste the below json into the `User Prefences` pane.  If you already have user-defined shortcuts, modify this appropriately.
+
+```json
+{
+"shortcuts": [
+{
+    "command": "notebook:restart-run-all",
+    "keys": [
+        "Ctrl R",
+        "R"
+    ],
+    "selector": "body",
+},
+{
+    "command": "notebook:restart-and-run-to-selected",
+    "keys": [
+        "Ctrl R",
+        "S"
+    ],
+    "selector": "body",
+},
+{
+    "command": "notebook:move-cell-up",
+    "keys": [
+        "Ctrl Shift ArrowUp"
+    ],
+    "selector": ".jp-Notebook:focus"
+},
+{
+    "command": "notebook:move-cell-down",
+    "keys": [
+        "Ctrl Shift ArrowDown"
+    ],
+    "selector": ".jp-Notebook:focus"
+},
+]
+}
+```
