@@ -1,6 +1,6 @@
 # Beautiful Literate Technical Documentation
 
-This project allows you to create rich, testable code documentation with notebooks.  
+This project allows you to create rich, testable code documentation with notebooks.  Don't worry - You can still use markdown if you want to.
 
 
 ## Background: Literate Documentation
