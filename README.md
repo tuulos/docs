@@ -18,7 +18,7 @@ Writing technical documentation can be an ardous process.  Many projects have no
 - [ ] Allow reader to **collapse/show** code and output
 
     
-The unchecked items are a work in progress.  There are some tools that offer some of these features such as [Jupyter Book](https://jupyterbook.org/intro.html) and [Quarto](https://quarto.org/), but we wanted more flexibility with regards to the static site generator and desired additional features not available on those platforms.  We are currently using [nbdoc](https://github.com/outerbounds/nbdoc) and [Docusarus](https://docusaurus.io/) to comopse our documentation system.
+The unchecked items are a work in progress.  There are some tools that offer some of these features such as [Jupyter Book](https://jupyterbook.org/intro.html) and [Quarto](https://quarto.org/), but we wanted more flexibility with regards to the static site generator and desired additional features not available on those platforms.  We are currently using [nbdoc](https://github.com/outerbounds/nbdoc) and [Docusarus](https://docusaurus.io/) to compose our documentation system.
 
 ## Setup
 
